@@ -35,6 +35,10 @@ def main():
         # Render the form again, but add in the prediction and remind user
         # of the values they input before
         return flask.render_template('main.html',result=predictions)
+@app.route('/BMI')
+def BMI():
+    return flask.render_template('BMI.html')
+
 from waitress import serve
 import os
 if __name__ == '__main__':
