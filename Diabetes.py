@@ -9,8 +9,8 @@ import numpy as np
 
 # In[2]:
 
-
-df = pd.read_csv("E:\\Diabetes.csv")
+path = r"E:\\Diabetes.csv"
+df = pd.read_csv(path)
 
 
 # In[3]:
